@@ -610,8 +610,8 @@ const isImage = (type === 'imageMessage')
             role = 'Immortal'
         } 
         ////DAFTAR BUTTON BY IKY
-      const daftar1 = `Hai kak  ${pushname} ${ucapanWaktu} \n\nSebelum Menggunakan Yui Botz Verify Terlebih Dahulu Ya `
-       const daftar2 = '```Ketik Tombol Di Bawah Untuk Verify Kak\nLeonzGanz```'
+      const daftar1 = `Hai kak  ${pushname} ${ucapanWaktu} \n\nSebelum Menggunakan Martin Botz Verify Terlebih Dahulu Ya `
+       const daftar2 = '```Ketik Tombol Di Bawah Untuk Verify Kak\nMartinn```'
        const daftar3 = [
           {
             buttonId: `!verify`,
@@ -624,7 +624,7 @@ const isImage = (type === 'imageMessage')
           
           
       const prem1 = `Hai kak  ${pushname} ${ucapanWaktu} \n\n Fitur Ini Khusus Member Premium Silahkan Buy Premium Untuk Menggunakan Fitur Ini `
-       const prem2 = '```KLIK TOMBOL DI BAWAH UNTUK MELIHAT LIST PREMIUM\n LeonGanz```'
+       const prem2 = '```KLIK TOMBOL DI BAWAH UNTUK MELIHAT LIST PREMIUM\n Martin```'
        const prem3 = [
           {
             buttonId: `!sewabot`,
@@ -901,7 +901,7 @@ const isVideo = (type === 'videoMessage')
 			let Levelnye = level.getLevelingLevel(sender, _level)
               let Xpluu = level.getLevelingXp(sender, _level)
               let requiredXplu = 10 * Math.pow(Levelnye, 2) + 50 * Levelnye + 100
-			tc = `MAAF KA NOMER KAMU BLOM TERDAFTAR DI DATABASE SILAHKAN KETIK !verify UNTUK MENDAFTAR DI Yui BOTZ`
+			tc = `MAAF KA NOMER KAMU BLOM TERDAFTAR DI DATABASE SILAHKAN KETIK !verify UNTUK MENDAFTAR DI Martin BOT`
 			ind = {
 				wait: `⌛ Sedang di Prosess ⌛`,
 				success: `✔️ Berhasil ✔️`,
@@ -1159,9 +1159,9 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
  🐣*XP*: ${Xpluu} / ${requiredXplu}
 
 🌹 BOT INFORMATION
-🐣 𝐒𝐩𝐞𝐞𝐝 : *${latensie.toFixed(4)} _Second_*
-🐥 𝐀𝐜𝐭𝐢𝐯𝐞 : *${runtime(process.uptime())}*
-🐣 𝐏𝐥𝐚𝐭𝐟𝐨𝐫𝐦 : *${os.platform()}*
+🐣 Speed : *${latensie.toFixed(4)} _Second_*
+🐥 UpTime : *${runtime(process.uptime())}*
+🐣 Os: *${os.platform()}*
 
     
   𝐋𝐈𝐒𝐓 𝐌𝐄𝐍𝐔
@@ -1206,15 +1206,12 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
 ┃
 ┗━▹ 𝐍𝐬𝐟𝐰𝐚𝐧𝐢𝐦𝐞
 
-
- 𝔍𝔞𝔫𝔤𝔞𝔫 𝔭𝔢𝔯𝔫𝔞𝔥 𝔪𝔢𝔫𝔠𝔦𝔫𝔱𝔞𝔦 𝔰𝔢𝔰𝔢𝔬𝔯𝔞𝔫𝔤 
-  𝔶𝔞𝔫𝔤 𝔪𝔞𝔰𝔦𝔥 𝔪𝔢𝔫𝔠𝔦𝔫𝔱𝔞𝔦 𝔪𝔞𝔰𝔞𝔩𝔞𝔩𝔲𝔫𝔶𝔞
 `
 
               
                 
 
-                    ikyy.sendMessage(from, { contentText: `${menu}`, footerText: 'leonz gans', buttons: [{ buttonId: `!command`, buttonText: { displayText: 'LIST MESSAGE' }, type: 1 },{ buttonId: `!sewabot`, buttonText: { displayText: '🏷️ SEWA BOT' }, type: 1 },{ buttonId: `!owner`, buttonText: { displayText: '👥 OWNER' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: ikyads, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+                    ikyy.sendMessage(from, { contentText: `${menu}`, footerText: 'Martin', buttons: [{ buttonId: `!command`, buttonText: { displayText: 'LIST MESSAGE' }, type: 1 },{ buttonId: `!sewabot`, buttonText: { displayText: '📰 IKLAN' }, type: 1 },{ buttonId: `!owner`, buttonText: { displayText: '👥 OWNER' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: ikyads, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
               break
 case 'f':
 case 'lock':
@@ -1305,7 +1302,7 @@ wibu = `
 ┃▹ ${prefix}steel3d text1 text2
 ┃▹ ${prefix}wallgravity text1 text2
 ┗━▹ `
-sendButMessage(from, wibu, `created leonz`, [
+sendButMessage(from, wibu, `created martin`, [
           {
             buttonId: `!menu`,
             buttonText: {
@@ -1355,7 +1352,7 @@ wibu = `
 ┃▹ hentai4everyone
 ┗━▹
 `
-                   sendButMessage(from, wibu, `created leonz`, [
+                   sendButMessage(from, wibu, `created martin`, [
           {
             buttonId: `!menu`,
             buttonText: {
@@ -1416,7 +1413,7 @@ wibu = `
 ┃▹ random_hentai_gif
 ┗━▹
 `
-                   sendButMessage(from, wibu, `created leonz`, [
+                   sendButMessage(from, wibu, `created martin`, [
           {
             buttonId: `!menu`,
             buttonText: {
@@ -1461,7 +1458,7 @@ wibu = `
 ┃▹ pubg text1 text2
 ┗━▹
 `
-                   sendButMessage(from, wibu, `created leonz`, [
+                   sendButMessage(from, wibu, `created martin`, [
           {
             buttonId: `!menu`,
             buttonText: {
@@ -1498,7 +1495,7 @@ wibu = `
 				buff = await getBuffer(`http://lolhuman.herokuapp.com/api/meme/darkjoke?apikey=IkyAds`, {method: 'get'})
 				buttons = [{buttonId: `!infoig`,buttonText:{displayText: ` Follow @leonvx._`},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'crated by LeonzGanz', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'crated by Martin', imageMessage: imageMsg,
               contentText:`Follow @leonvx._`,buttons,headerType:4}
               prep = await ikyy.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply})
               ikyy.relayWAMessage(prep)
@@ -1540,7 +1537,7 @@ wibu = `
 ┃▹ freefire text
 ┗━▹
 `
-                   sendButMessage(from, wibu, `created leonz`, [
+                   sendButMessage(from, wibu, `created martin`, [
           {
             buttonId: `!menu`,
             buttonText: {
@@ -1565,7 +1562,7 @@ wibu = `
 					buff = await getBuffer(`https://leyscoders-api.herokuapp.com/api/harta-tahta?text=${q}&apikey=IkyOgiwara`)
 		      buttons = [{buttonId: `!infoig`,buttonText:{displayText: ` Follow @leonvx._`},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'crated by leonz', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'crated by martin', imageMessage: imageMsg,
               contentText:`Follow @leonvx._`,buttons,headerType:4}
               prep = await ikyy.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply})
               ikyy.relayWAMessage(prep)
@@ -1624,7 +1621,7 @@ wibu = `
 MENU INI BERISI FITUR 18+
 SEBELUM MELANJUTKAN PASTIKAN ANDA BERUMUR 18+
 `
-                   sendButMessage(from, wibu, `created leonz`, [
+                   sendButMessage(from, wibu, `created martin`, [
           {
             buttonId: `!pornmenu`,
             buttonText: {
@@ -1812,7 +1809,7 @@ case 'chiisaihentai':
               buff = await getBuffer(`https://api.lolhuman.xyz/api/random/nsfw/${command}?apikey=IkyAds`)
               buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'crated by leonz', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'crated by martin', imageMessage: imageMsg,
               contentText:`Follow @leonvx._`,buttons,headerType:4}
               prep = await ikyy.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply})
               ikyy.relayWAMessage(prep)
@@ -1864,7 +1861,7 @@ case 'chiisaihentai':
                buff = await getBuffer(`https://api.lolhuman.xyz/api/random2/${command}?apikey=IkyAds`)
                 buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'crated by LeonzGanz', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'crated by Martin', imageMessage: imageMsg,
               contentText:`Follow @leonvx._`,buttons,headerType:4}
               prep = await ikyy.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply})
               ikyy.relayWAMessage(prep)
@@ -1879,14 +1876,14 @@ anu = await fetchJson(`https://leyscoders-api.herokuapp.com/api/ppcouple?apikey=
 						buff1 = await getBuffer(anu.result.male)
 						buttons = [{buttonId: `!infoig`,buttonText:{displayText: `Follow @leonvx._`},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff1, "imageMessage", { thumbnail: buff1, })).imageMessage
-              buttonsMessage = {footerText:'crated by leonz', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'crated by Martin', imageMessage: imageMsg,
               contentText:`Cowo`,buttons,headerType:4}
               prep = await ikyy.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply})
               ikyy.relayWAMessage(prep)
             buff2 = await getBuffer(anu.result.female)
               buttons = [{buttonId: `!infoig`,buttonText:{displayText: `Follow @leonvx._`},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff2, "imageMessage", { thumbnail: buff2, })).imageMessage
-              buttonsMessage = {footerText:'crated by leonz', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'crated by Martin', imageMessage: imageMsg,
               contentText:`Cewe`,buttons,headerType:4}
               prep = await ikyy.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply})
              setTimeout( async () => {
@@ -1901,7 +1898,7 @@ case 'memek':
 
 buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `NEXT`},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'crated by leonz', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'crated by Martin', imageMessage: imageMsg,
               contentText:`klik Next untuk ke gambar selanjut nya`,buttons,headerType:4}
               prep = await ikyy.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply})
               ikyy.relayWAMessage(prep)
@@ -1946,7 +1943,7 @@ break
                   buff = await getBuffer(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=IkyAds&text=${ini_txt}`)
                  buttons = [{buttonId: `!menu`,buttonText:{displayText: `BACK MENU`},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'crated by leonz', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'crated by Martin', imageMessage: imageMsg,
               contentText:`Follow @leonvx._`,buttons,headerType:4}
               prep = await ikyy.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply})
               ikyy.relayWAMessage(prep)
@@ -1969,7 +1966,7 @@ break
                  buff = await getBuffer(`https://api.lolhuman.xyz/api/textprome2/${command}?apikey=IkyAds&text1=${txt1}&text2=${txt2}`)
                           buttons = [{buttonId: `!menu`,buttonText:{displayText: `BACK MENU`},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'crated by leonz', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'crated by Martin', imageMessage: imageMsg,
               contentText:`Follow @leonvx._`,buttons,headerType:4}
               prep = await ikyy.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply})
               ikyy.relayWAMessage(prep)
@@ -2007,7 +2004,7 @@ break
                   buff = await getBuffer(`https://api.lolhuman.xyz/api/photooxy1/${command}?apikey=IkyAds&text=${ini_txt}`)
                           buttons = [{buttonId: `!menu`,buttonText:{displayText: `BACK MENU`},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'crated by leonz', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'crated by Martin', imageMessage: imageMsg,
               contentText:`Follow @leonvx._`,buttons,headerType:4}
               prep = await ikyy.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply})
               ikyy.relayWAMessage(prep)
@@ -2021,10 +2018,10 @@ break
                     if (args.length == 0) return reply(`Example: ${prefix + command} LoL Human`)
                     txt1 = args[0]
                     txt2 = args[1]
-                buff = await getBuffer(`https://api.lolhuman.xyz/api/photooxy2/${command}?apikey=IkyAds&text1=${txt1}&text2=${txt2}`)
+                buff = await getBuffer(`https://api-keyss.herokuapp.com/api/textmaker/game?text=halo&text2=hai&theme=pubg&apikey=Alphabot`)
                           buttons = [{buttonId: `!menu`,buttonText:{displayText: `BACK MENU`},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'crated by leonz', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'crated by Martin', imageMessage: imageMsg,
               contentText:`Follow @leonvx._`,buttons,headerType:4}
               prep = await ikyy.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply})
               ikyy.relayWAMessage(prep)
@@ -2068,7 +2065,7 @@ break
              buff = await getBuffer(`https://api.lolhuman.xyz/api/ephoto1/${command}?apikey=IkyAds&text=${ini_txt}`)
                buttons = [{buttonId: `!menu`,buttonText:{displayText: `BACK MENU`},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'crated by leonz', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'crated by Martin', imageMessage: imageMsg,
               contentText:`Follow @leonvx._`,buttons,headerType:4}
               prep = await ikyy.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply})
               ikyy.relayWAMessage(prep)
@@ -2117,14 +2114,14 @@ case "mode":
               textImg(`Success mode self gan`)
               break
                 case 'quotes':
-                    quotes = await fetchJson(`https://api.lolhuman.xyz/api/random/quotes?apikey=IkyAds`)
+                    quotes = await fetchJson(`https://api-keyss.herokuapp.com/`)
                     quotes = quotes.result
                     author = quotes.by
                     quotes = quotes.quote
                     reply(`_${quotes}_\n\n*â€• ${author}*`)
                     break
                 case 'quotesanime':
-                    quotes = await fetchJson(`https://api.lolhuman.xyz/api/random/quotesnime?apikey=IkyAds`)
+                    quotes = await fetchJson(`https://api-keyss.herokuapp.com/api/cewe/indonesia?apikey=Alphabot`)
                     quotes = quotes.result
                     quote = quotes.quote
                     char = quotes.character
@@ -2133,16 +2130,16 @@ case "mode":
                     reply(`_${quote}_\n\n*• ${char}*\n*• ${anime} ${episode}*`)
                     break
                 case 'quotesdilan':
-                    get_result = await fetchJson(`https://api.lolhuman.xyz/api/quotes/diLan?apikey=IkyAds`)
+                    get_result = await fetchJson(`https://api-keyss.herokuapp.com/`)
                      reply(get_result.result)
 
                    break
                     break
                 case 'quotesimage':
-                    buff = await getBuffer(`https://api.lolhuman.xyz/api/random/${command}?apikey=IkyAds`)
+                    buff = await getBuffer(`https://api-keyss.herokuapp.com/api/cewe/indonesia?apikey=Alphabot`)
                     buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'crated by leonz', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'crated by Martin', imageMessage: imageMsg,
               contentText: ini_txt,buttons,headerType:4}
               prep = await ikyy.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply})
               ikyy.relayWAMessage(prep)
@@ -2151,7 +2148,7 @@ case "mode":
                 case 'katabijak':
                 case 'pantun':
                 case 'bucin':
-                    get_result = await fetchJson(`https://api.lolhuman.xyz/api/random/${command}?apikey=IkyAds`)
+                    get_result = await fetchJson(`https://api-keyss.herokuapp.com/`)
                    titid = get_result.result
                    sendButMessage(from, titid, `Klik Untuk Ke Quotes Selanjutnya`, [
           {
@@ -2265,7 +2262,7 @@ case "mode":
         break;
                     break
                 case 'ceritahoror':
-                    get_result = await fetchJson(`https://api.lolhuman.xyz/api/ceritahoror?apikey=IkyAds`)
+                    get_result = await fetchJson(`https://api.lolhuman.xyz/api/ceritahoror?apikey=99bb58aaeb93e1eaaaa5d227`)
                     get_result = get_result.result
                     ini_txt = `Title : ${get_result.title}\n`
                     ini_txt += `Desc : ${get_result.desc}\n`
@@ -2273,7 +2270,7 @@ case "mode":
                     buff = await getBuffer(get_result.thumbnail)
               buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'crated by leonz', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'crated by Martin', imageMessage: imageMsg,
               contentText: ini_txt,buttons,headerType:4}
               prep = await ikyy.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply})
               ikyy.relayWAMessage(prep)
@@ -2296,12 +2293,12 @@ case "mode":
 
 
                
-🐥 𝐆𝐫??𝐮𝐩 𝐂𝐡𝐚𝐭𝐬 : *${groups.length}*
-🐥 𝐏𝐫𝐢𝐯𝐚𝐭𝐞 𝐂𝐡𝐚𝐭𝐬 : *${privat.length}*
-🐥 𝐓𝐨𝐭𝐚𝐥 𝐂𝐡𝐚𝐭𝐬 : *${totalChat.length}*
-🐥 𝐒𝐩𝐞𝐞𝐝 : *${latensie.toFixed(4)} _Second_*
-🐥 𝐀𝐜𝐭𝐢𝐯𝐞 : *${runtime(process.uptime())}*
-🐥 ??𝐥𝐚??𝐟𝐨𝐫𝐦 : *${os.platform()}*
+🐥 Group Chats : *${groups.length}*
+🐥 Private Chats : *${privat.length}*
+🐥 Total Chats : *${totalChat.length}*
+🐥 Speed : *${latensie.toFixed(4)} _Second_*
+🐥 Active : *${runtime(process.uptime())}*
+🐥 Platform : *${os.platform()}*
 
 
 
@@ -2324,9 +2321,6 @@ case "mode":
 ┃▹  ꜱɪᴅᴇʀ *ʀᴇᴘʟʏ ᴄʜᴀᴛ ʙᴏᴛ*
 ┃▹  ʜɪᴅᴇᴛᴀɢ *ᴛᴇᴋꜱ/ʀᴇᴘʟʏ ᴛᴇᴋꜱ*
 ┗⬡
-
-𝔍𝔞𝔫𝔤𝔞𝔫 𝔭𝔢𝔯𝔫𝔞𝔥 𝔪𝔢𝔫𝔠𝔦𝔫𝔱𝔞𝔦 𝔰𝔢𝔰𝔢𝔬𝔯𝔞𝔫𝔤 
- 𝔶𝔞𝔫𝔤 𝔪𝔞𝔰𝔦𝔥 𝔪𝔢𝔫𝔠𝔦𝔫𝔱𝔞𝔦 𝔪𝔞𝔰𝔞𝔩𝔞𝔩??𝔫𝔶𝔞
 `
 
                buttons =  [
@@ -2338,7 +2332,7 @@ case "mode":
                contentText: `${menu}`,
                footerText:  `   
 
- ♥️ LeonGanz`, imageMessage: imageMsg,
+ ♥️ Martin`, imageMessage: imageMsg,
                buttons: buttons,
                headerType: 1
 }
@@ -2372,9 +2366,6 @@ case "mode":
 ┃▹ ${prefix}cerpen
 ┃▹ ${prefix}ceritahoror
 ┗⬡
-
-𝔍𝔞𝔫𝔤𝔞𝔫 𝔭𝔢𝔯𝔫𝔞𝔥 𝔪𝔢𝔫𝔠??𝔫𝔱𝔞𝔦 𝔰𝔢𝔰𝔢𝔬𝔯𝔞𝔫𝔤 
- 𝔶𝔞𝔫𝔤 𝔪𝔞𝔰𝔦𝔥 𝔪𝔢𝔫𝔠𝔦𝔫𝔱𝔞𝔦 𝔪𝔞𝔰𝔞𝔩𝔞𝔩𝔲𝔫𝔶𝔞
 `
 
                buttons =  [
@@ -2386,7 +2377,7 @@ case "mode":
                contentText: `${menu}`,
                footerText:  `   
 
-♥️ LeonGanz`, imageMessage: imageMsg,
+♥️ Martin`, imageMessage: imageMsg,
                buttons: buttons,
                headerType: 1
 }
@@ -2423,9 +2414,6 @@ case "mode":
 ┃▹ ${prefix}bucin
 ┃▹ ${prefix}randomnama
 ┗⬡
-
-𝔍𝔞𝔫𝔤𝔞𝔫 𝔭𝔢𝔯𝔫𝔞𝔥 𝔪𝔢𝔫𝔠𝔦𝔫𝔱𝔞𝔦 𝔰𝔢𝔰𝔢𝔬𝔯𝔞𝔫𝔤 
- 𝔶𝔞𝔫𝔤 𝔪𝔞𝔰𝔦𝔥 𝔪𝔢𝔫𝔠𝔦𝔫𝔱𝔞𝔦 𝔪𝔞𝔰𝔞𝔩𝔞𝔩𝔲𝔫𝔶𝔞
 `
 
                buttons =  [
@@ -2437,7 +2425,7 @@ case "mode":
                contentText: `${menu}`,
                footerText:  `   
 
-♥️ LeonGanz`, imageMessage: imageMsg,
+♥️ Martin`, imageMessage: imageMsg,
                buttons: buttons,
                headerType: 1
 }
@@ -2496,10 +2484,7 @@ case "mode":
 ┃▹  ${prefix}premium add @tag|nomor
 ┃▹  ${prefix}premium del @tag|nomor
 ┗⬡
-
-
- 𝔍𝔞𝔫𝔤𝔞𝔫 𝔭𝔢𝔯??𝔞𝔥 𝔪𝔢𝔫𝔠𝔦𝔫𝔱𝔞𝔦 𝔰𝔢𝔰𝔢𝔬𝔯𝔞𝔫𝔤 
-  𝔶𝔞𝔫𝔤 𝔪𝔞𝔰𝔦𝔥 𝔪𝔢𝔫𝔠𝔦𝔫𝔱𝔞𝔦 𝔪𝔞𝔰𝔞𝔩𝔞𝔩𝔲𝔫𝔶𝔞`
+`
 
                buttons =  [
     {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
@@ -2511,7 +2496,7 @@ case "mode":
                footerText:  `   
 
 
-♥️ LeonGanz`, imageMessage: imageMsg,
+♥️ Martin`, imageMessage: imageMsg,
                buttons: buttons,
                headerType: 1
 }
@@ -2584,11 +2569,7 @@ case "mode":
                footerText:  `   
 
 
-
- 𝔍𝔞𝔫𝔤𝔞𝔫 𝔭𝔢𝔯𝔫𝔞𝔥 𝔪𝔢𝔫𝔠𝔦𝔫𝔱𝔞𝔦 𝔰𝔢𝔰𝔢𝔬𝔯??𝔫𝔤 
-  𝔶𝔞𝔫𝔤 𝔪𝔞𝔰𝔦𝔥 𝔪𝔢𝔫𝔠𝔦𝔫𝔱𝔞𝔦 𝔪𝔞𝔰𝔞𝔩𝔞𝔩𝔲𝔫𝔶𝔞
-
-♥️ LeonGanz`, imageMessage: imageMsg,
+♥️ Martin`, imageMessage: imageMsg,
                buttons: buttons,
                headerType: 1
 }
@@ -2637,7 +2618,8 @@ case "mode":
 ┃▹  ${prefix}tiktokaudio
 ┃▹  ${prefix}mediafire 
 ┃▹  ${prefix}nhentaipdf *code*
-┗⬡ `
+┗⬡ 
+`
 
                buttons =  [
     {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
@@ -2649,11 +2631,7 @@ case "mode":
                footerText:  `   
    
 
-
- 𝔍𝔞𝔫𝔤𝔞𝔫 𝔭𝔢𝔯𝔫𝔞𝔥 𝔪𝔢𝔫𝔠𝔦𝔫𝔱𝔞𝔦 𝔰𝔢𝔰𝔢𝔬𝔯𝔞𝔫𝔤 
-  𝔶𝔞𝔫𝔤 𝔪𝔞𝔰𝔦𝔥 𝔪𝔢𝔫𝔠𝔦𝔫𝔱𝔞𝔦 𝔪𝔞𝔰𝔞𝔩𝔞𝔩𝔲𝔫𝔶𝔞
-
-♥️ LeonGanz`, imageMessage: imageMsg,
+♥️ Martin`, imageMessage: imageMsg,
                buttons: buttons,
                headerType: 1
 }
@@ -2702,7 +2680,8 @@ case "mode":
 ┃▹  ${prefix}tiktokstalk *ussername*
 ┃▹  ${prefix}img2url *reply foto*
 ┃▹  ${prefix}ytsearch *query*
-┗⬡ `
+┗⬡
+ `
 
                buttons =  [
     {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
@@ -2714,10 +2693,7 @@ case "mode":
                footerText:  `   
   
 
- 𝔍𝔞𝔫𝔤𝔞𝔫 𝔭𝔢𝔯𝔫𝔞𝔥 𝔪𝔢𝔫𝔠𝔦𝔫𝔱𝔞𝔦 𝔰𝔢𝔰𝔢𝔬𝔯𝔞𝔫𝔤 
-  ??𝔞𝔫𝔤 𝔪𝔞𝔰𝔦𝔥 ??𝔢𝔫𝔠𝔦𝔫𝔱𝔞𝔦 𝔪𝔞𝔰𝔞𝔩𝔞𝔩𝔲𝔫𝔶𝔞
-
-♥️ LeonGanz`, imageMessage: imageMsg,
+♥️ Martin`, imageMessage: imageMsg,
                buttons: buttons,
                headerType: 1
 }
@@ -2772,7 +2748,8 @@ case "mode":
 ┃▹  ${prefix}tebakgambar
 ┃▹  ${prefix}tebakbendera
 ┃▹  ${prefix}suit *batu/kertas/gunting*
-┗⬡ `
+┗⬡ 
+`
 
                buttons =  [
     {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
@@ -2784,10 +2761,7 @@ case "mode":
                footerText:  `   
 
 
- 𝔍𝔞??𝔤𝔞𝔫 𝔭𝔢𝔯𝔫𝔞𝔥 𝔪𝔢𝔫𝔠𝔦𝔫𝔱𝔞𝔦 𝔰𝔢𝔰𝔢𝔬𝔯𝔞𝔫𝔤 
-  𝔶𝔞𝔫𝔤 𝔪𝔞𝔰??𝔥 𝔪𝔢𝔫𝔠𝔦𝔫𝔱𝔞𝔦 𝔪𝔞𝔰𝔞𝔩𝔞𝔩??𝔫𝔶𝔞
-
-♥️ LeonGanz`, imageMessage: imageMsg,
+♥️ Martin`, imageMessage: imageMsg,
                buttons: buttons,
                headerType: 1
 }
@@ -2836,10 +2810,6 @@ case "mode":
 ┃▹  ${prefix}take *pack|author* 
 ┃▹  ${prefix}tovideo *reply sgif*
 ┗⬡ 
-
-
-𝔍𝔞𝔫𝔤𝔞𝔫 𝔭𝔢𝔯𝔫𝔞𝔥 𝔪𝔢𝔫𝔠𝔦𝔫𝔱𝔞𝔦 𝔰𝔢𝔰𝔢𝔬𝔯𝔞𝔫𝔤 
- 𝔶𝔞𝔫𝔤 𝔪𝔞𝔰𝔦𝔥 𝔪𝔢𝔫𝔠𝔦𝔫𝔱𝔞𝔦 𝔪𝔞𝔰𝔞𝔩𝔞𝔩𝔲𝔫𝔶𝔞
 `
 
 
@@ -2855,7 +2825,7 @@ case "mode":
 
  
 
-♥️ LeonGanz`, imageMessage: imageMsg,
+♥️ Martin`, imageMessage: imageMsg,
                buttons: buttons,
                headerType: 1
 }
@@ -2909,10 +2879,6 @@ case "mode":
 ┃▹  ${prefix}cekganteng
 ┃▹  ${prefix}cekcantik
 ┗⬡ 
-
-
-𝔍𝔞𝔫𝔤𝔞𝔫 𝔭𝔢𝔯𝔫𝔞𝔥 𝔪𝔢𝔫𝔠𝔦𝔫𝔱𝔞𝔦 𝔰𝔢𝔰𝔢𝔬𝔯𝔞𝔫𝔤 
- 𝔶𝔞𝔫𝔤 𝔪𝔞𝔰𝔦𝔥 𝔪𝔢𝔫𝔠𝔦𝔫𝔱𝔞𝔦 𝔪𝔞𝔰𝔞𝔩𝔞𝔩𝔲𝔫𝔶𝔞
 `
                buttons =  [
     {buttonId: `${prefix}rules`, buttonText: {displayText: 'S&K'}, type: 1},
@@ -4074,7 +4040,7 @@ const serialUser = createSerial(18)
 *🌹 Serial:* ${serialUser}
 *🌹 Total:* ${_registered.length} Pengguna
 
-*「 YUIBOTZ 」*`
+*「 MARTIN-BOT 」*`
          ikyads = await getBuffer(`http://hadi-api.herokuapp.com/api/card/verify?nama=${encodeURI(pushname)}&member=${_registered.length}&seri=${serialUser}&pp=${ppimg}&bg=${ppimg}`)
              buttons = [{buttonId: `!menu`,buttonText:{displayText: `🏷️MENU`},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(ikyads, "imageMessage", { thumbnail: ikyads, })).imageMessage
@@ -4086,7 +4052,7 @@ const serialUser = createSerial(18)
 	    // console.log(e)
             setTimeout( () => {
 			ikyy.updatePresence(from, Presence.composing)
-			reply(`*Terimakasih Telah Terdaftar Di Yui Botz *`)
+			reply(`*Terimakasih Telah Terdaftar Di Martin Bot*`)
 		}, 2000)
         break
 case 'sfire':
@@ -4228,30 +4194,223 @@ case 'sfire':
               gopeynya = 'https://telegra.ph/file/f31a1679501f76109e6f1.jpg'
             buff = await getBuffer(gopeynya)
             teksnya = `
-┏━━⬣ PRICE LIST 1
-┃⬡ SEWA 5K/MINGGU
-┃⬡ SEWA 20K/BLN
-┃⬡ SEWA + PREMIUM 15K
-┃⬡ PERMANEN 50K
-┃⬡ PERMANEN + PREM 70K
-┃⬡ ALL PERMANEN 80K
-┗━━⬣
+DM FF VIA ID*
 
-┏━━⬣ PRICE LIST 2
-┃⬡ JADI BOT 20K/BLN
-┃⬡ JADI BOT + OWNER 100K
-┃⬡ SC BOT TANYA OWNER
-┗━━⬣
+5💎 : 830
+20💎 : 2.800
+50💎 : 6.700
+70💎 : 9.200
+100💎 : 13.200
+140💎 : 18.100
+150💎 : 19.900
+210💎 : 27.300
+355💎 : 45.500
+500💎 : 64.500
+720💎 : 91.000
+1000💎 : 127.500
+1440💎 : 182.000
+2000💎 : 249.000
 
-┏━━⬣ MINAT? PM
-┃⬡ wa.me/6285608625102
-┃⬡ Ig @leonvx._
-┃⬡ Yt LeonzGanz
-┗━━⬣
+MM : 27.800
+MB :109.800
+ *DM ML VIA ID*
+
+86 💎 19.800
+172 💎 39.900
+257 💎 58.900
+344 💎 78.900
+429 💎 98.900
+514 💎 118.900
+600 💎 137.900
+706 💎 157.900
+878 💎196.900
+963  💎 216.900
+1050 💎 236.900
+1220 💎 277.000
+1412 💎 314.900
+2195 💎 465.900
+
+SL = 110.000
+TL = 110.000
+UC PUBG MOBILE FAST
+💵 263    UC = Rp   44.000
+💵 525    UC = Rp   86.500
+💵 788    UC = Rp 128.500
+💵 1.050 UC = Rp 171.500
+💵 1.375 UC = Rp 214.250
+💵 1.638 UC = Rp 256.000
+💵 1.900 UC = Rp 298.000
+💵 2.163 UC = Rp 340.500
+💵 2.425 UC = Rp 383.000
+💵 2.875 UC = Rp 424.500
+💵 3.138 UC = Rp 467.500
+💵 3.400 UC = Rp 509.500
+💵 3.925 UC = Rp 596.500
+💵 4.250 UC = Rp 638.500
+💵 6.000 UC = Rp 850.500
+Paket UC Pubg Mobile Via ID Proses 10-180 Menit Max 3 Jam - 24 Jam apabila Sistem Error/ Maintenance.
+
+Rules : *Jam Layanan : 09.00 AM - 19.00 PM* 
+*STOCK UNLIMITED*🔥
+
+*Paket Candies Sausage Man Via ID Proses 10-60 Menit Max 3 Jam - 24 Jam*
+
+60 Candies     : Rp 14.000
+180 Candies   : Rp 39.500
+316 Candies   : Rp 64.500
+718 Candies   : Rp 127.000
+1368 Candies : Rp 252.500
+2118 Candies : Rp 378.500
+3548 Candies : Rp 630.500
+Rules : *Jam Layanan : 09.00 AM - 19.00 PM* 
+*TIDAK ADA BUKTI TRANSAKSI*
+
+*Paket Genshin Impact Via ID Proses 10-60 Menit Max 3 Jam - 24 Jam*  *apabila Sistem* *Error Maintenance*	
+*Valid Date : 02/09/21*	Paket 1st Recharge x2 apabila belum pernah di topup				
+
+60 Gnosis Crystal	Rp15.200			
+300 + 30 Gnosis Crystal	Rp71.000
+980 + 110 Gnosis Crystal	Rp190.000
+1980 + 260 Gnosis Crystal	Rp390.000
+3280 + 600 Gnosis Crystal	Rp680.000	
+6480 + 1600 Gnosis Crystal	Rp1.300.000		
+					
+					
+Rules :					
+*Jam Layanan : 09.00 AM - 19.00 PM*		
+*Kesalahan Input Nickname/User ID, Bukan tanggung jawab kami*					
+*TIDAK ADA BUKTI TRANSAKSI*
+
+VALORANT sampai tanggal 9 september
+125 VP = Rp 16.500
+424 VP = Rp 49.500
+734 VP = Rp 78.000
+1500 VP = Rp 144.000
+2716 VP = Rp 239.500
+4666 VP = Rp 342.400
+9634 VP = Rp 781.000
+
+ LIST MOBILE LEGENDS VIA ID B
+  70       💎   =14.850
+  140     💎  = 29.800
+  210     💎  = 44.450
+  284     💎  = 59.300
+  355     💎  = 73.950
+  429     💎 = 88.700
+  716     💎 = 147.700
+  1446   💎 = 295.500
+  2976   💎=  590.500
+______________________________________
+
+PAKET B ml semi
+💎202 	Rp 41.900
+💎404 	Rp 82.500
+💎606 	Rp 123.500
+💎829 	Rp 163.900
+💎1.031 	Rp 205.500
+💎1.233 	Rp 246.900
+💎1.658 	Rp 327.300
+💎2.157 	Rp 408.500 
+Starlight Member Rp. 113,700
+Rules : *Jam Layanan : 09.00 AM - 19.00 PM*
+*PRICE LIST GIFT ALL ITEM VIA PERTEMANAN RATE 140*
+
+
+SKIN HERO:
+SKIN BIASA (254 DM):Rp 36.000
+ELIT RECEH (399DM):Rp 56.000
+SKIN ELITE CLASS (599DM):Rp 84.000
+SPECIAL (749DM):Rp 105.000
+EPIC (899DM):Rp 126.000
+LIGHTBRON (1089DM):Rp 152.900
+MPL (749DM):Rp 105.500
+
+
+ITEM:
+EMOTE (109DM):Rp 15.800
+EMOTE (79DM):Rp 11.900
+
+
+MORE ITEM:
+StarLight member card GIFT (550DM):Rp 77.500
+Squad CN (299DM):Rp 42.860
+Flag CN (1000DM):Rp 140.500
+CN (239 DM):Rp 33.900
+
+
+HERO: 
+254 DM: Rp 36.000
+399 DM: Rp 56.000
+419 DM: Rp 59.500
+499 DM: Rp 70.000
+599 DM: Rp 84.860
+
+*Zepeto via id*
+Zepeto ZEMS
+
+14 ZEMS = Rp 14.500
+29 ZEMS = Rp 27.500
+60 ZEMS = Rp 53.500
+125 ZEMS = Rp 104.500
+196 ZEMS = Rp 156.000
+770 ZEMS = Rp 591.500
+
+Zepeto COINS
+
+4680 COINS = Rp 14.500
+10200 COINS = Rp 27.500
+21000 COINS = Rp 54.000
+38900 COINS = Rp 96.500
+62800 COINS = Rp 146.650
+234000 COINS = Rp 506.500
+
+🦕LIST APK PREMIUM/MOD
+➳゛Alight motion pro : 500p
+➳゛Alight motion support 5mb : 500p
+➳゛Capcut : 500p <unclock>
+➳゛Instagram mod <sv foto+video> : 500p
+➳゛Spotify premium : 500p <unclock>
+➳゛Picsart : 500p <unclock>
+➳゛Pixellab+font <100+> : 500p <no iklan+unclock>
+➳゛Netflix premium : 500p <unclock>
+➳゛Viu <unclock> 500p
+➳゛Resso <unclock> 500p
+➳゛Vsco <unclock> 500p
+➳゛Snapchat <unclock> 500p
+➳゛Wattpad <unclock> 500p
+➳゛Manga toon <unclock> 500p
+➳゛Joox <unclock> 500p
+➳゛Remini <unclock> 500p
+➳゛kinemaster pro <unclock> 500p
+➳゛Telegram mod lite 500p
+➳l゛GBWhatsapp : 1k 
+➳゛YOWhatsapp : 1k
+
+GAME MOD🦕
+➳゛Cooking mama : 500p
+➳゛Pou : 500p
+➳゛Moy : 500p
+➳゛My talking tom 2 : 500p
+➳゛bombers friend : 500p
+➳゛Lifesim 2 : 500p
+➳゛Another Eden : 500p
+➳゛Among As : 500p
+➳゛fruits ninja : 500p
+*🦕all game unlimited coin/unclock*
+_🦕Game lain nya bisa request ya_
+*🦕APK LAINNYA BISA REQUEST*
+*CODM VIA ID*
+彡112 CP : 17.000
+彡278 CP : 39.500
+彡581 CP : 77.600
+彡1268 CP : 152.500
+彡1901 CP : 227.500
+彡3300 CP : 378.500
+彡7128 CP : 752.000
 `
   buttons = [{buttonId: `${prefix}owner`,buttonText:{displayText: `OWNER`},type:1},{buttonId: `${prefix}payment`,buttonText:{displayText: `PAYMENT`},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'crated by LeonzGanz', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'crated by Martin', imageMessage: imageMsg,
               contentText: teksnya,buttons,headerType:4}
               prep = await ikyy.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply})
               ikyy.relayWAMessage(prep)
@@ -4270,13 +4429,13 @@ case 'sfire':
             "title": "LIST CATALOG",
             "products": [
               {
-                "productId": "4120139628109348"
+                "productId": ""
               },
               {
-              	"productId": "6431678466857362"
+              	"productId": ""
               },
               {
-              	"productId": "4392524570816732"
+              	"productId": ""
               }
             ]
           }
@@ -4511,7 +4670,7 @@ ikyy.sendMessage(from,{url:'./'+kyyyy},audio,{mimetype:'audio/mpeg'})
        case 'tiktoknowm':
               if (!q) return reply('Linknya?')
               if (!q.includes('tiktok')) return reply(mess.error.Iv)
-              data = await fetchJson(`https://api.lolhuman.xyz/api/tiktok?apikey=IkyAds&url=${q}`)
+              data = await fetchJson(`https://api-keyss.herokuapp.com/api/tiktod/?url=MASUKIN_URL&apikey=Alphabot`)
               result = `⚜️ *Nickname*: ${data.result.author.nickname}\n❤️ *Like*: ${data.result.statistic.diggCount}\n💬 *Komentar*: ${data.result.statistic.commentCount}\n🔁 *Share*: ${data.result.statistic.shareCount}\n🎞️ *Views*: ${data.result.statistic.playCount}\n?? *Desc*: ${data.result.title}`
               buttons = [{buttonId: `${prefix}tt1 ${q}`,buttonText:{displayText: `▶️ Video`},type:1},{buttonId:`${prefix}ttaudio ${q}`,buttonText:{displayText:'🎵 Audio'},type:1}]
               fs.writeFileSync(`./${sender}.jpeg`, await getBuffer(data.result.thumbnail))
@@ -4697,7 +4856,7 @@ ikyy.sendMessage(from,{url:'./'+kyyyy},audio,{mimetype:'audio/mpeg'})
               buff = await getBuffer(get_result.coverImage.large)
               buttons = [{buttonId: `!menu`,buttonText:{displayText: `Back To Menu`},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'crated by leonz', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'crated by Martin', imageMessage: imageMsg,
               contentText: ini_txt,buttons,headerType:4}
               prep = await ikyy.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply})
               ikyy.relayWAMessage(prep)
@@ -4816,7 +4975,7 @@ ikyy.sendMessage(from,{url:'./'+kyyyy},audio,{mimetype:'audio/mpeg'})
        case 'nekopoi':
               if (args.length == 0) return reply(`Example: ${prefix + command} https://nekopoi.care/isekai-harem-monogatari-episode-4-subtitle-indonesia/`)
               ini_url = args[0]
-              get_result = await fetchJson(`https://api.lolhuman.xyz/api/nekopoi?apikey=IkyAds&url=${ini_url}`)
+              get_result = await fetchJson(`https://api-keyss.herokuapp.com/`)
               get_result = get_result.result
               ini_txt = `\`\`\`🐥 Title : ${get_result.anime}\`\`\`\n`
               ini_txt += `\`\`\`🐥 Porducers : ${get_result.producers}\`\`\`\n`
@@ -4835,7 +4994,7 @@ ikyy.sendMessage(from,{url:'./'+kyyyy},audio,{mimetype:'audio/mpeg'})
               
                buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'crated by leonz', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'crated by Martin', imageMessage: imageMsg,
               contentText: ini_txt,buttons,headerType:4}
               prep = await ikyy.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply})
               ikyy.relayWAMessage(prep)
@@ -4843,7 +5002,7 @@ ikyy.sendMessage(from,{url:'./'+kyyyy},audio,{mimetype:'audio/mpeg'})
        case 'nekopoisearch':
               if (args.length == 0) return reply(`Example: ${prefix + command} Isekai Harem`)
               query = args.join(" ")
-              get_result = await fetchJson(`https://api.lolhuman.xyz/api/nekopoisearch?apikey=IkyAds&query=${query}`)
+              get_result = await fetchJson(`https://api-keyss.herokuapp.com/`)
               get_result = get_result.result
               ini_txt = ""
               for (var x of get_result) {
@@ -4859,10 +5018,10 @@ ikyy.sendMessage(from,{url:'./'+kyyyy},audio,{mimetype:'audio/mpeg'})
        case 'megumin':
        case 'wallnime':
               reply(mess.wait)
-              buff = await getBuffer(`https://api.lolhuman.xyz/api/random/${command}?apikey=IkyAds`)
+              buff = await getBuffer(`https://api-keyss.herokuapp.com/`)
               buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'crated by leonz', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'crated by Martin', imageMessage: imageMsg,
               contentText:`klik Next untuk ke gambar selanjut nya`,buttons,headerType:4}
               prep = await ikyy.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply})
               ikyy.relayWAMessage(prep)
@@ -4884,7 +5043,7 @@ ikyy.sendMessage(from,{url:'./'+kyyyy},audio,{mimetype:'audio/mpeg'})
        case 'storyanime':
               
               reply(mess.wait)
-              anu = await fetchJson(`https://lolhuman.herokuapp.com/api/storynime?apikey=IkyAds`)
+              anu = await fetchJson(`https://api-keyss.herokuapp.com/`)
               buffer = await getBuffer(anu.result)
               ikyy.sendMessage(from, buffer, video, { quoted: freply })
               break
@@ -4894,7 +5053,7 @@ ikyy.sendMessage(from,{url:'./'+kyyyy},audio,{mimetype:'audio/mpeg'})
        if (!isPremium) return sendButMessage (from, prem1, prem2, prem3, { quoted: freply})
               reply(mess.wait)
               try {
-              bsangee = await axios.get(`https://api.vhtear.com/neko3d&apikey=${setting.vhtearkey}`)
+              bsangee = await axios.get(`https://api-keyss.herokuapp.com/`)
               bsangee2 = bsangee.data
               keluarplay = `*List update 3D JAV*\n`
               for (let i = 0; i < bsangee2.result.length; i++) {
@@ -4968,7 +5127,7 @@ break
               fs.writeFileSync(`./${sender}.jpeg`, await getBuffer(wipi))
 		      buttons = [{buttonId: `${prefix + command}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = ( await ikyy.prepareMessage(from, fs.readFileSync(`./${sender}.jpeg`), 'imageMessage', {thumbnail: Buffer.alloc(0)})).message.imageMessage
-              buttonsMessage = {footerText:'crated by leonz', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'crated by Martin', imageMessage: imageMsg,
               contentText:`klik Next untuk ke gambar selanjut nya`,buttons,headerType:4}
               prep = await ikyy.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply})
               ikyy.relayWAMessage(prep)
@@ -5086,7 +5245,7 @@ break
                     buff = await getBuffer(ini_url)
                     buttons = [{buttonId: `${prefix + command} ${query}`,buttonText:{displayText: `➡️Next`},type:1}]
               imageMsg = (await ikyy.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
-              buttonsMessage = {footerText:'crated by leonz', imageMessage: imageMsg,
+              buttonsMessage = {footerText:'crated by Martin', imageMessage: imageMsg,
               contentText:`klik Next untuk ke gambar selanjut nya`,buttons,headerType:4}
               prep = await ikyy.prepareMessageFromContent(from,{buttonsMessage},{quoted: freply})
               ikyy.relayWAMessage(prep)
@@ -5787,7 +5946,7 @@ break
        case 'sourcecode': 
        case 'sc': 
        case 'src':
-              textImg(`Bot ini menggunakan sc : YUI BOTZ`)
+              textImg(`Bot ini menggunakan sc: https://github.com/NixonSiagian/whatsapp-bot`)
               break
       case 'ping':
       case 'speed':
@@ -6348,9 +6507,9 @@ teks = `\`\`\`BOT STATISTICS\`\`\`
                thankslort = `┌──「 *INFORMATION* 」
 │
 ├ *BOT TYPE* : NodeJS
-├ *NAME*  : LeonzGanz
+├ *NAME*  : Martinn
 ├ *VERSION* : 1.0
-├ *GITHUB* : Bl4ck-lion
+├ *GITHUB* : SY3
 │
 ├─「 *𝙏𝙃𝘼𝙉𝙆𝙎 𝙏𝙊* 」
 │
@@ -6360,7 +6519,6 @@ teks = `\`\`\`BOT STATISTICS\`\`\`
 ├ Manurius
 ├ Arif
 ├ Fathur
-├ LeonzGanz
 ├ Kwn² Yg Bantu Gw
 ├ And all creator bot
 │
@@ -6566,10 +6724,10 @@ case 'caripesan':  //by ANU TEAM
              break
 //------------------< Menunya Bang:v >-------------------
       case 'infoig':
-             reply(`Jangan Lupa Follow Ig Owner Ya : https://www.instagram.com/leonvx._/`)
+             reply(`Jangan Lupa Follow Ig Owner Ya : Coming-Soon`)
              break
       case 'mygroup':
-             reply('https://chat.whatsapp.com/KMr1UDdgT8NIEi4sghMaUH')
+             reply('https://chat.whatsapp.com/GNsqb4gO1qADjERtuWeYo9')
              break
       
       
@@ -6590,7 +6748,7 @@ if (budy.includes(`assalamualaikum`)) {
 if (budy.includes(`anjing`)) {
                   reply(`santai jamet`)
                   }
-                  if (budy.includes(`Iky`)) {
+                  if (budy.includes(`Martin`)) {
                   reply(`Auto respon: Iya kenapa manggil ownerku?`)
                   }
 
